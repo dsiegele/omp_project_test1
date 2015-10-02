@@ -1,15 +1,1 @@
-This directory is the main development trunk for the Ontology of Microbial
-Phenotypes (OMP). Files are named as follows:
-
-omp-edit.obo - Editors' version of OMP. This is a working copy and should not be considered stable. Stable releases of OMP are in the releases directory.
-
-archived_files - Do not use these files. They exist only for archival reasons.
-	microbial_phenotypes.obo - previous version of OMP, now deprecated. Upon
-commits to version r75 and r76, this file became omp.obo and omp-edit.obo.
-
-Other files:
-The deprecated file "microbial_observable_ontology" was previously removed
-(r23).
-
-For term requests and questions, please visit our tracker at:
-https://sourceforge.net/p/microphenotypes/omp-term-request/
+This was a test of migrating the ontology files from SourceForge to github.  This attempt successfully transferred trunk, but did not capture the releases.
