@@ -1,7 +1,16 @@
 date? This was a test of migrating the ontology files from SourceForge to github.  This attempt successfully transferred trunk, but did not capture the releases.
 
-2015-10-05 Testing how to update the release files.  First, added omp.obo from 2015-06-12. Next, will try to update to the 2015-09-07 file. This is what I did:
-  -clone repository again after adding the omp.obo file
-  -replace omp.obo 2015-06-12 with omp.obo 2015-09-08
-  -stage the modified file with the command  $:git commit -a -m 'omp.obo 2015-09-08'
-  -push file to git hub with the command $:git push origin master
+2015-10-05 Testing how to update the release files.  
+First, I added omp.obo from 2015-06-12 to the repository. 
+Next, I recloned the repository (so my local copy would match the remote version).  Then I:
+  -replaced omp.obo 2015-06-12 with omp.obo 2015-09-08
+  -staged the modified file with the command  $ git commit -a -m 'omp.obo 2015-09-08'
+  -pushed file to git hub with the command $ git push origin master
+Finally, I tagged the commit as a new release 
+  -added a name for the tag with the command $ git tag -a release_2015-09-08 f83c04c391ac929350f7f69efa51c0bb3251d38a 
+      (the editor opens and you can add text to the file. I add the date of the release, e.g. release_2015-09-08.) 
+  - to check that you've added the tag, run the command $git tag 
+  -pushed the release to the remote repository with the command $ git push origin release_2015-09-08
+  -check tags branch on github and see if the tag is there
+  
+  
