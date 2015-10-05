@@ -1,3 +1,7 @@
 date? This was a test of migrating the ontology files from SourceForge to github.  This attempt successfully transferred trunk, but did not capture the releases.
 
-2015-10-05 Testing how to update the release files.  First, added omp.obo from 2015-06-12. Next, will try to update to the 2015-09-07 file.
+2015-10-05 Testing how to update the release files.  First, added omp.obo from 2015-06-12. Next, will try to update to the 2015-09-07 file. This is what I did:
+  -clone repository again after adding the omp.obo file
+  -replace omp.obo 2015-06-12 with omp.obo 2015-09-08
+  -stage the modified file with the command  $:git commit -a -m 'omp.obo 2015-09-08'
+  -push file to git hub with the command $:git push origin master
