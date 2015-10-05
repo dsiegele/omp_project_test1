@@ -1,1 +1,3 @@
-This was a test of migrating the ontology files from SourceForge to github.  This attempt successfully transferred trunk, but did not capture the releases.
+date? This was a test of migrating the ontology files from SourceForge to github.  This attempt successfully transferred trunk, but did not capture the releases.
+
+2015-10-05 Testing how to update the release files.  Added omp.obo from 2015-06-12. 
